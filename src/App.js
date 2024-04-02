@@ -1,19 +1,22 @@
 
 import './App.css';
 import { useState } from 'react';
-import FormRHF from './components/FormRHF';
-import NormalForm from './components/NormalForm';
-import MUIComponent from './components/materialui/MUIComponent';
-import Form from './components/integration/Form';
-import HookForm from './components/reusuable/HookForm';
+import HookForm from './components/useController/HookForm';
+import FormRHF from "./components/FormRHF";
+import NormalForm from "./components/NormalForm";
+import MUIComponent from "./components/Controller/MUIComponent";
+import Form from "./components/integration/Form"
+
 function App() {
   return (
     <div >
-      {/* <FormRHF /> */}
-      <NormalForm/>
+    
+      {/* <NormalForm/> */}
       {/* <MUIComponent/> */}
       {/* <Form /> */}
       {/* <HookForm/> */}
+      <FormRHF/>
+    
 
     </div>
   )
